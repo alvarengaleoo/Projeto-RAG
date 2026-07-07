@@ -1,7 +1,7 @@
-from rag import buscar_contexto
+from rag import gerar_resposta
 
-contexto = buscar_contexto(
-    "Quando tenho direito ao plano de saúde?"
+resposta = gerar_resposta(
+    "Quais os dias que trabalho home-office?"
 )
 
-print(contexto)
+print(resposta)
